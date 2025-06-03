@@ -40,6 +40,11 @@ nav a {
     height: 295px;
      border-top: #000000 solid 6px;
      padding: 15px;
+      @media (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .divmain{
@@ -75,6 +80,11 @@ nav a {
     background-color: #E15634;
     border-top: solid 20px #E63B2E;
     justify-content: space-around;
+        @media (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
 } 
 .produto2{
@@ -86,6 +96,11 @@ nav a {
     flex-direction: row;
     background-color: #E15634;
     justify-content: space-around;
+    @media (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .produto3{
     padding: 20px;
@@ -261,4 +276,8 @@ padding: 10px;
     gap: 500px;
     border-radius: 10px;
     border: solid 2px rgb(0, 0, 0);
+}
+.texto{
+    background-color: #E63B2E;
+    text-align: center;
 }
